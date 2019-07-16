@@ -33,6 +33,7 @@ In short, they need to be treated as first class citizens. Design and maintain t
 * Learning how to test effectively takes practice
     * What to test, what not to test?
     * How do I make thing x testable?
+    * How do I write tests that aren't fragile?
 * Productivity in the short-term will drop
     * Stakeholders and developers alike quickly lose patience
 

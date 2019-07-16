@@ -28,7 +28,7 @@ In short, they need to be treated as first class citizens. Design and maintain t
 
 ### Applying tests to a legacy codebase is _hard_
 
-* Code was not designed with testing in mind
+* Code was likely not designed with testing in mind
     * Coupling to frameworks, databases and other delivery mechanisms can be hard to break apart
 * Learning how to test effectively takes practice
     * What to test, what not to test?
@@ -46,6 +46,14 @@ In general, further up the pyramid means:
 * Tests are slower to run
 * Tests are harder to write and maintain
 * Defect localization becomes harder
+
+Unit tests should be written [FIRST](https://hackernoon.com/test-f-i-r-s-t-65e42f3adc17):
+
+ * Fast
+ * Isolated
+ * Repeatable
+ * Self-validating
+ * Thorough and timely
 
 ## TDD
 
